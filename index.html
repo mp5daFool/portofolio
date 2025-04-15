@@ -6,45 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portofolio</title>
     <link rel="icon" type="image/png" href="assets/iconR.png">
-    <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
 </head>
 
 <body>
 
 
-    <header class="flex w100 justifyCenter alignCenter">
-                <!-- Bouton Changement de thème -->
-                <div>
-                    
-                    <span class="material-symbols-outlined"> contrast </span>
+    <header>
+        <!-- <div class="side"> -->
+            
+        <!-- </div> -->
 
-                </div>
+        <div class="logo">
+            <a href="#">
+                <span class="material-icons">contrast</span>
+            </a>
+        </div>
 
-        <nav class="nav w50 side">
-
-                
-
-                <div class="flex spaceBetween noDecoration white">
-                    <a href="#" class="white">
-                        <img src="assets/Platform=Github, Color=Negative.png" alt="">
-                    </a>
-                    <a href="#" class="white">
-                        <img src="assets/Platform=Instagram, Color=Negative.png" alt="">
-                    </a>
-
-                    <a href="#" class="white">
-                        <img src="assets/Platform=LinkedIn, Color=Negative.png" alt="">
-                    </a></li>
-                    <a href="#" class="white">
-                        <img src="assets/Platform=X (Twitter),Color=Negative.png" alt="">
-                    </a>
-
-
-                </div>
-
-
-        </nav>
+        <div class="side">
+            <a href="#"><img src="assets/Platform=Github, Color=Negative.png" alt="GitHub" width="24"></a>
+            <a href="#"><img src="assets/Platform=Instagram, Color=Negative.png" alt="Instagram" width="24"></a>
+            <a href="#"><img src="assets/Platform=X (Twitter),Color=Negative.png" alt="Twitter" width="24"></a>
+            <a href="#"><img src="assets/Platform=LinkedIn, Color=Negative.png" alt="LinkedIn" width="24"></a>
+        </div>
     </header>
 
 
@@ -53,16 +39,16 @@
         <!-- HERO -->
         <section class="container">
 
-            <div class="carte1">
-                <h1> RYANN RENE-CORAIl</h1>
-
-                <div class="cartecontenu">
+            <div class="carte1 flex flexRow spaceAlign">
+                <img src="assets/placeholder.jpg" alt="placeholder" class="w50">
+            
+                <div class="texteCarte">
+                    <h1> RYANN RENE-CORAIl</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, exercitationem.</p>
                 </div>
 
-                <div>
-                    <img src="assets/placeholder.jpg" alt="placeholder" class="objectFit">
-                </div>
+            
+                    
 
             </div>
 
@@ -71,7 +57,7 @@
 
         <!-- SOMMAIRE -->
 
-        <aside>
+       <!-- <aside>
             <nav>
                 <h3>Articles récents</h3>
                 <ul>
@@ -80,7 +66,7 @@
                     <li><a href="">• Mes Projets</a></li>
                 </ul>
             </nav>
-        </aside>
+        </aside> -->
 
         <!-- //////////////////////////// -->
         <!-- Savoir Faire -->
@@ -88,7 +74,7 @@
         <section class="container">
 
             <!-- Carte -->
-            <div class=" flex carte2">
+            <div class=" flex carte1 pd25">
 
                 <h2>Savoir Faire</h2>
 
@@ -102,7 +88,7 @@
 
             <!-- Carte 2 -->
 
-            <div class="carte2">
+            <div class="flex carte1 pd25">
 
                 <h2>Parcours</h2>
 
@@ -123,11 +109,11 @@
             <!-- Carte 3 -->
             <div class="carte1">
 
-                <nav class="navProjets">
-                    <span class="material-symbols-outlined">
+                <nav class="navProjets flex flexRow">
+                    <span class="material-icons">
                         filter_alt
                     </span>
-                    <ul class="FiltreProjet">
+                    <ul class="FiltreProjet noDecoration flex flexRow spaceAlign spaceBetween">
 
                         <li><a href="#">HTML</a></li>
                         <li><a href="#">CSS</a></li>
@@ -136,11 +122,11 @@
 
                 </nav>
 
-                <div class="carte4">
+                <div class="flexRow spaceAlign">
 
                     <!-- Interface Projets -->
 
-                    <div class="carteProjet">
+                    <div class="carteProjet white">
                         <a href="#">
                             <h2>Nom Projet</h2>
                         </a>
@@ -165,11 +151,14 @@
 
 
     </main>
+    <div>
+        
+        <a href="#top" class="topBtn alignCenter flex">
+        <span class="material-icons">arrow_upward</span>
+        </a>
 
-    <a href="#top" class="topBtn mauto alignCenter ">
-        <span class="material-icons material-symbols-outlined">
-            arrow_upward
-        </span>
+    </div>
+    
 
         <footer>
 
