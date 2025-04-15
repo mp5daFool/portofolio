@@ -67,6 +67,10 @@ body {
     position: relative;
 }
 
+.flexGrow {
+    flex-grow: 1;
+}
+
 /* Dimensions */
 
 .w25 {
