@@ -15,10 +15,41 @@ body {
         color: #151515;
     }
 
+    .logo {
+        filter: invert(1);
+    }
+
     .carte1 {
         background-color: #cacaca;
         color: #151515;
     }
+
+    .carteProjet {
+        background-color: #f5f5f5;
+        color: #151515;
+    }
+
+    .TagCard {
+        background-color: #f5f5f5;
+        color: #151515;
+    }
+
+    .TagCard:hover {
+        background-color: #151515;
+        color: #f5f5f5;
+    }
+
+    .topBtn {
+        background-color: #cacaca;
+        color: #f5f5f5;
+    }
+
+    footer {
+        background-color: #cacaca;
+        color: #151515;
+    }
+
+
 }
 
 
@@ -228,6 +259,15 @@ header span {
     width: 700px;
 }
 
+.carte2 {
+    background-color: #2e2e2e;
+    border: #cacaca solid 1px;
+    border-radius: 20px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    width: 700px;
+}
+
 .carte1 h1, .carte h2 {
     margin-bottom: 1rem;
 }
@@ -235,6 +275,7 @@ header span {
 .carte1 img {
     max-width: 100%;
     border-radius: 10px;
+    display: block;
 }
 
 
@@ -345,7 +386,7 @@ aside a {
     padding: 3px 5px;
     margin: 0px 3px;
     /* outline: solid 1px #727272; */
-    box-shadow: 0 0 5px #1c1c1c;
+    box-shadow: 0 0 1px #1c1c1c;
     border-radius: 10px;
     width: 23%;
 }
@@ -369,10 +410,13 @@ footer {
 .footerCard {
     padding: 5px 5px;
     outline: solid 0 0 1px #ccc;
-    box-shadow: 0 0 5px #1c1c1c;
     width: 350px;
     align-items:start;
     text-align: left;
+}
+
+.footerCard h4:hover {
+    color: #f5f5f5;
 }
 
 
@@ -385,7 +429,7 @@ footer {
     background-color: #ebebeb;
     color: #151515;
     padding: 15px 15px;
-    border-radius: 50%;
+    border-radius: 20px;
     justify-content: center;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
