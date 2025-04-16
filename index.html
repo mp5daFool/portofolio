@@ -8,7 +8,7 @@
     <link rel="icon" type="image/png" href="assets/iconR.png">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    
+
 </head>
 
 <body>
@@ -16,14 +16,21 @@
 
     <header>
         <!-- <div class="side"> -->
-            
+
         <!-- </div> -->
 
         <div class="logo">
-            <a href="#">
+            <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0" onclick="myFunction()">
                 <span class="material-icons">contrast</span>
             </a>
         </div>
+
+        <script>
+            function myFunction() {
+               var element = document.body;
+               element.classList.toggle("light-mode");
+            }
+            </script>
 
         <div class="side">
             <a href="#"><img src="assets/Platform=Github, Color=Negative.png" alt="GitHub" width="24"></a>
@@ -41,32 +48,36 @@
 
             <div class="carte1 flex flexRow spaceAlign">
                 <img src="assets/placeholder.jpg" alt="placeholder" class="w50">
-            
+
                 <div class="texteCarte">
                     <h1> RYANN RENE-CORAIl</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, exercitationem.</p>
                 </div>
 
-            
-                    
+
+
 
             </div>
+
+            <!-- SOMMAIRE -->
+
+            <!-- <aside>
+                <nav class="noDecoration">
+                    <h4>Articles récents</h4>
+                    <ul>
+                        <li><a href="">• Présentation</a></li>
+                        <li><a href="">• Savoir faire / Parcours</a></li>
+                        <li><a href="">• Mes Projets</a></li>
+                    </ul>
+                </nav>
+            </aside> -->
 
 
         </section>
 
-        <!-- SOMMAIRE -->
+        
 
-       <!-- <aside>
-            <nav>
-                <h3>Articles récents</h3>
-                <ul>
-                    <li><a href="">• Présentation</a></li>
-                    <li><a href="">• Savoir faire / Parcours</a></li>
-                    <li><a href="">• Mes Projets</a></li>
-                </ul>
-            </nav>
-        </aside> -->
+        
 
         <!-- //////////////////////////// -->
         <!-- Savoir Faire -->
@@ -154,21 +165,47 @@
 
     </main>
     <div>
-        
+
         <a href="#top" class="topBtn alignCenter flex">
-        <span class="material-icons">arrow_upward</span>
+            <span class="material-icons">arrow_upward</span>
         </a>
 
     </div>
-    
 
-        <footer>
 
-            <div class="container">
-                <p>Ryann Rene-Corail</p>
+    <footer>
+
+        <div class="container">
+
+            <div class="flex flexColumn footerCard">
+
+                <div>
+                    <a href="">
+                        <h4>Télécharger mon CV</h4>
+                    </a>
+
+
+
+                </div>
+
+                <div>
+                    <a href="">
+                        <h4>Me Contacter </h4>
+                    </a>
+
+                </div>
+
+
             </div>
+                <div>
+                        <p>Ryann Rene-Corail</p>
+                </div>
 
-        </footer>
+        </div>
+
+
+
+    </footer>
 
 </body>
 
