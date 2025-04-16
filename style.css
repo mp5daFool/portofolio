@@ -304,9 +304,37 @@ aside a {
 .projets {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-direction: row;
-    gap: 16px;
+    gap: 5px;
+}
+
+.navProjets {
+    margin: 19px;
+    outline: solid 1px #ebebeb;
+    width: 280px;
+    padding: 5px 5px;
+    border-radius: 10px;
+}
+
+.FiltreProjet {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.TagCard {
+    padding: 3px 5px;
+    margin: 0px 3px;
+    outline: solid 1px #727272;
+    box-shadow: 0 0 5px #1c1c1c;
+    border-radius: 10px;
+    width: 23%;
+}
+
+.TagCard:hover {
+    background-color: #ebebeb;
+    color: #151515;
 }
 
 
